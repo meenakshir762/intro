@@ -1,0 +1,58 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(bg.gif) ;
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(80, 161, 117, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(246, 252, 250);
+    font-family: "Sofia";
+    font-size: large;
+    font-weight: bolder;
+    font-variant: small-caps;
+    
+    
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    color: aquamarine;
+  }
+  .box li a{
+   
+    text-decoration: none;
+    font-size: 60px;
+    color: rgb(20, 168, 77);
+    transition: all ease-in-out 250ms;
+  }
+ 
